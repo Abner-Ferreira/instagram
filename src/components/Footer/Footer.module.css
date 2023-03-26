@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul{
+    margin-top: 60px;
+    list-style: none;
+    display: flex;
+}
+
+.container li {
+     font-size: 18px;
+     margin: 0 10px;
+     color: #8e8e8e;
+}
+
+.container li:hover {
+    text-decoration:underline #385185;
+}
+
+#languages{
+    border: none;
+    color: #8e8e8e;
+    font-size: 18px;
+}

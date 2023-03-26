@@ -1,0 +1,154 @@
+
+
+
+.container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxPrincipal{
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 20px;
+    height: 570px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.containerInput {
+    margin-top: 40px;
+    width: 300px;
+}
+
+#userEmail, #userPassword {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(219, 219, 219);
+
+}
+
+#userEmail::placeholder, #userPassword::placeholder{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.botaoLogin{
+    background-color: rgb(0, 149, 246);
+    border: none;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.containerDivisoria{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.barra{
+    margin-top: 20px;
+    width: 120px;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    margin: 10px 2px ;
+}
+
+.containerDivisoria p {
+    margin: 0 30px -10px 20px;
+    color: #8e8e8e;
+    font-weight: 800;
+}
+
+.facebookDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    
+}
+
+.facebookDiv img {
+    width: 55px;
+    height: 35px;
+    /* margin-top: 35px; */
+    /* margin-left: -165px; */
+}
+
+.facebookDiv a , p{
+    text-decoration: none;
+    color: #385185;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top:6px;
+}
+
+.forgotPassword {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.forgotPassword a{
+    text-decoration: none;
+    color: #385185;
+}
+
+
+.boxSecundario {
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 20px;
+    height: 200px ;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxSecundario p {
+    text-align: center;
+    color: #262626;
+    font-size: 22px;
+    font-weight: 100;
+    
+}
+
+.boxSecundario a {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: 800;
+}
+
+.linkAppStore{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linkAppStore p{
+    color: #262626;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.downloads {
+    height: 70px;
+}
+
+.downloads img{
+    height: 50px;
+    margin: 30px 10px 0 10px;
+}
