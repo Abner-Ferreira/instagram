@@ -21,7 +21,10 @@
 
 }
 
-
+.imgLogo {
+    margin: 20px 0;
+    width: 50%;
+}
 
 .containerInput {
     margin-top: 40px;

@@ -6,6 +6,15 @@
     align-items: center;
 }
 
+.itensFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
 .container ul{
     margin-top: 60px;
     list-style: none;

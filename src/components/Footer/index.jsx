@@ -4,6 +4,8 @@ import styles from './Footer.module.css'
 
 function Footer() {
 
+    const date = new Date()
+    const ano = date.getFullYear()
 
     const handleLanguage = (e) => {
 
@@ -17,7 +19,7 @@ function Footer() {
   return (
     <>
         <div className={styles.container}>
-            <ul>
+            <ul className={styles.itensFooter}>
                 <li>Meta</li>
                 <li>About</li>
                 <li>Blog</li>
@@ -37,7 +39,7 @@ function Footer() {
                     <option value="English">English</option>
                     <option value="Portuguese">Portuguese</option>
                     </select></li>
-                <li>© 2023 Instagram from Meta</li>
+                <li>© {ano} Instagram from Meta</li>
             </ul>
         </div>
     </>

@@ -5,15 +5,14 @@ import facebookLogo from "../../assets/facebook.png"
 
 function Login() {
 
-   
-    
     
     
     return (
         <>
             <div className={styles.container}>
+
                 <div className={styles.boxPrincipal}>
-                    <i style={{backgroundImage: "url('https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png')", backgroundPosition: "0px 0px" ,backgroundSize: "176px 186px", width: "174px" ,height: "50px" ,backgroundRepeat: "no-repeat", display: "inline-block", marginTop: "50px"}}></i>
+                    <img src='https://www.dafont.com/forum/attach/orig/7/3/737566.png?1' className={styles.imgLogo}/>
                     <div className={styles.containerInput}>
                         <input type="email" name="email" id={styles.userEmail} placeholder="Phone number, username, or email" />
                         <input type="password" name="password" id={styles.userPassword} placeholder="Password" />
